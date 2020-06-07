@@ -4,7 +4,7 @@
 </div>
 
 <br/>
-data sets from: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data/archived_time_series"> CSSE at Johns Hopkins University</a>
+Original dataset from: <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data/archived_time_series"> CSSE at Johns Hopkins University</a>
 <br/>
 
 # Introduction
