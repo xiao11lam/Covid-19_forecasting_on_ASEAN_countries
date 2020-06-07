@@ -1,2 +1,4 @@
 # Covid-19-forecasting-on-ASEAN-countries
-！[Image](https://github.com/xiao11lam/Covid-19-forecasting-on-ASEAN-countries/blob/master/Image/association-of-southeast-asian-nations-asean-vector-logo.png)
+<div align="center">
+  <img src="Image/association-of-southeast-asian-nations-asean-vector-logo.png">
+</div>
