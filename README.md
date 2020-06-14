@@ -1,6 +1,6 @@
 ## Covid-19-forecasting-on-ASEAN-countries
 <div align="center">
-  <img src="Image/association-of-southeast-asian-nations-asean-vector-logo.png" with = "50%" height = "50%">
+  <img src="Image/association-of-southeast-asian-nations-asean-vector-logo.png" width = "50%" height = "50%">
 </div>
 
 
