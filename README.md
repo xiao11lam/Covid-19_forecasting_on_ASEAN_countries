@@ -26,9 +26,9 @@ One shows the total number of global confirmed cases and another death cases. <b
 ## global death cases
 <img src="Image/time_series_covid19_deaths_global.png"> <br/>
 In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries, then we calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
-<div align="left">
-<img src="Image/case_fatality_1.png.png"> 
-</div>
+
+<img src="Image/case_fatality_1.png.png" width = "300" height = "200" align=left /> 
+
 
 <img src="Image/case_fatality_2.png.png"> <br/>
 
