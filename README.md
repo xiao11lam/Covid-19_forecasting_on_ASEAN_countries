@@ -40,7 +40,7 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 <img src="Image/case_fatality_2.png" aligh=left> <br/>
 
 # Data Visualization 
-<img src="Image/January.png" > <br/>
+<img src="Image/January.PNG" > <br/>
 <img src="Image/February.PNG" > <br/>
 <img src="Image/March.PNG" > <br/>
 <img src="Image/April.PNG" > <br/>
