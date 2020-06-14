@@ -49,6 +49,7 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 
 # Modeling
 For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. And here are the result.<br/>
+
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/pre.csv"> pre.csv
 </a> <br>
 
