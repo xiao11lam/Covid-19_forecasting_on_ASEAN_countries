@@ -41,7 +41,8 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 <img src="Image/June.PNG" > <br/>
 
 # Modeling
-For our exploration, we use [LSTM]("https://en.wikipedia.org/wiki/Long_short-term_memory") model to do forecastings. And we here are the result.<br/>
+For our exploration, we use  
+ <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. And we here are the result.<br/>
 <img src="Image/data_forecasting.png" > <br/>
 
 
