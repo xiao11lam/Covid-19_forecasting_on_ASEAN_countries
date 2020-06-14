@@ -21,12 +21,19 @@ One shows the total number of global confirmed cases and another death cases. <b
 <img src="Image/Original Data Preview.png" > <br/>
 
 ## global confirmed cases
+
+<a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/time_series_covid19_confirmed_global.csv"> time_series_covid19_confirmed_global.csv</a> <br>
 <img src="Image/time_series_covid19_confirmed_global.png" > <br/>
 
 ## global death cases
+
+<a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/time_series_covid19_deaths_global.csv"> time_series_covid19_deaths_global.csv</a> <br>
+
 <img src="Image/time_series_covid19_deaths_global.png" > <br/>
 
 In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries, then we calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
+
+<a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/case_fatality.csv"> case_fatality.csv</a> <br>
 
 <img src="Image/case_fatality_1.png" aligh=left> 
 
@@ -41,9 +48,13 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 <img src="Image/June.PNG" > <br/>
 
 # Modeling
-For our exploration, we use  
- <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. And we here are the result.<br/>
+For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. And we here are the result.<br/>
+<a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/pre.csv"> pre.csv
+</a> <br>
+
 <img src="Image/data_forecasting.png" > <br/>
+
+
 
 
 
