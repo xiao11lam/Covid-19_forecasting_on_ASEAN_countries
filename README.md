@@ -1,6 +1,6 @@
 ## Covid-19-forecasting-on-ASEAN-countries
 <div align="center">
-  <img src="Image/association-of-southeast-asian-nations-asean-vector-logo.png">
+  <img src="Image/association-of-southeast-asian-nations-asean-vector-logo.png" with = "50%" height = "50%">
 </div>
 
 
@@ -60,6 +60,7 @@ And here are the results.<br/>
 
 # Shiny Apps
 Here is the Shiny Apps we lauch. 
+
 <a href="https://likong.shinyapps.io/Covid-19/"> Covid-19 forecasting on ASEAN countries Shiny App</a> 
 <img src="Image/shiny_app.png" > <br/>
 
