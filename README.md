@@ -58,9 +58,11 @@ And here are the results.<br/>
 
 <img src="Image/data_forecasting.png" > <br/>
 
-# Shinny Apps
-Here is the Shinny Apps we lauch. 
+# Shiny Apps
+Here is the Shiny Apps we lauch. 
 <a href="https://likong.shinyapps.io/Covid-19/"> Covid-19 forecasting on ASEAN countries Shiny App</a> 
+<img src="Image/shiny_app.png" > <br/>
+
 
 
 
