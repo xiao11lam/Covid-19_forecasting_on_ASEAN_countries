@@ -18,18 +18,18 @@ Modeling and Shiny apps: LI KONG 17216250 / ZHANG, XIAO 17204147 <br/>
 We get our two raw datasets from   : <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data/archived_time_series"> CSSE at Johns Hopkins University</a> <br/>
 One shows the total number of global confirmed cases and another death cases. <br/>
 
-<img src="Image/Original Data Preview.png"> <br/>
+<img src="Image/Original Data Preview.png" aligh=left> <br/>
 
 ## global confirmed cases
-<img src="Image/time_series_covid19_confirmed_global.png"> <br/>
+<img src="Image/time_series_covid19_confirmed_global.png" aligh=left> <br/>
 
 ## global death cases
-<img src="Image/time_series_covid19_deaths_global.png"> <br/>
+<img src="Image/time_series_covid19_deaths_global.png" aligh=left> <br/>
 In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries, then we calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
 
 <img src="Image/case_fatality_1.png" aligh=left> 
 
-<img src="Image/case_fatality_2.png" aligh=right> <br/>
+<img src="Image/case_fatality_2.png" aligh=left> <br/>
 
 # Data Visualization 
 
