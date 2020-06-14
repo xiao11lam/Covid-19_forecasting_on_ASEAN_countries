@@ -21,10 +21,11 @@ One shows the total number of global confirmed cases and another death cases. <b
 <img src="Image/Original Data Preview.png" > <br/>
 
 ## global confirmed cases
-<img src="Image/time_series_covid19_confirmed_global.png" alt="global confirmed cases"> <br/>
+<img src="Image/time_series_covid19_confirmed_global.png" > <br/>
 
 ## global death cases
-<img src="Image/time_series_covid19_deaths_global.png" alt="global death cases"> <br/>
+<img src="Image/time_series_covid19_deaths_global.png" > <br/>
+
 In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries, then we calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
 
 <img src="Image/case_fatality_1.png" aligh=left> 
@@ -32,7 +33,16 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 <img src="Image/case_fatality_2.png" aligh=left> <br/>
 
 # Data Visualization 
+<img src="Image/January.png" > <br/>
+<img src="Image/February.PNG" > <br/>
+<img src="Image/March.PNG" > <br/>
+<img src="Image/April.PNG" > <br/>
+<img src="Image/May.PNG" > <br/>
+<img src="Image/June.PNG" > <br/>
 
+# Modeling
+For our exploration, we use [LSTM]("https://en.wikipedia.org/wiki/Long_short-term_memory") model to do forecastings. And we here are the result.<br/>
+<img src="Image/data_forecasting.png" > <br/>
 
 
 
