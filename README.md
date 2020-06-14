@@ -20,12 +20,12 @@ One shows the total number of global confirmed cases and another death cases. <b
 
 <img src="Image/Original Data Preview.png" > <br/>
 
-## global confirmed cases
+## Global confirmed cases
 
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/time_series_covid19_confirmed_global.csv"> time_series_covid19_confirmed_global.csv</a> <br>
 <img src="Image/time_series_covid19_confirmed_global.png" > <br/>
 
-## global death cases
+## Global death cases
 
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/time_series_covid19_deaths_global.csv"> time_series_covid19_deaths_global.csv</a> <br>
 
