@@ -64,7 +64,8 @@ Here is the Shiny Apps we lauch.
 <a href="https://likong.shinyapps.io/Covid-19/"> Covid-19 forecasting on ASEAN countries Shiny App</a> 
 <img src="Image/shiny_app.png" > <br/>
 
-
+# Reference
+https://ornlcda.github.io/icons2018/presentations/comparison_reynolds.pdf
 
 
 
