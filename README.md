@@ -16,7 +16,7 @@ Modeling and Shiny apps: LI KONG 17216250 / ZHANG, XIAO 17204147 <br/>
 
 # Data cleansing
 We get our two raw datasets from   : <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data/archived_time_series"> CSSE at Johns Hopkins University</a> <br/>
-One shows the total number of global confirmed cases and another death cases. <br/>
+They showed the total number of global confirmed cases and death cases, which records from 1/22/20 to 6/6/20.<br/>
 
 <img src="Image/Original Data Preview.png" > <br/>
 
@@ -31,7 +31,7 @@ One shows the total number of global confirmed cases and another death cases. <b
 
 <img src="Image/time_series_covid19_deaths_global.png" > <br/>
 
-In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries, then we calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
+In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries. In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
 
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/case_fatality.csv"> case_fatality.csv</a> <br>
 
