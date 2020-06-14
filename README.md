@@ -52,7 +52,7 @@ For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-t
 
 <img src="Image/Long_Short-Term_Memory.svg" > <br/>
 
-And here are the result.<br/>
+And here are the results.<br/>
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/pre.csv"> pre.csv
 </a> <br>
 
