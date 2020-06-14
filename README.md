@@ -48,7 +48,7 @@ In this part, we did our data cleansing, we filter the data we have no interest 
 <img src="Image/June.PNG" > <br/>
 
 # Modeling
-For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. 
+For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. The forecasting results is based on the previous ending date the one-day after. 
 
 <img src="Image/Long_Short-Term_Memory.svg" > <br/>
 
@@ -59,6 +59,9 @@ And here are the results.<br/>
 <img src="Image/data_forecasting.png" > <br/>
 
 # Shinny Apps
+Here is the Shinny Apps we lauch. 
+<a href="https://likong.shinyapps.io/Covid-19/"> Covid-19 forecasting on ASEAN countries Shiny App</a> 
+
 
 
 
