@@ -56,7 +56,7 @@ And here are the results.<br/>
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/pre.csv"> pre.csv
 </a> <br>
 
-<img src="Image/data_forecasting.png" > <br/>
+<img src="Image/data forecasting.png" > <br/>
 
 # Shiny Apps
 Here is the Shiny Apps we lauch. 
