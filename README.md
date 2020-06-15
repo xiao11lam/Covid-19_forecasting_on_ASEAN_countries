@@ -65,7 +65,7 @@ Here is the Shiny Apps we lauch.
 <img src="Image/shiny_app.png" > <br/>
 
 # Conclusion
-The countries like Indonesia and Philippines may have very high CFR values in the future, ASEAN should engaged to better invest in the construction of related medical infrastructure to improve medical conditions. <br/>
+The countries like Indonesia and Philippines may have very high CFR values in the future, ASEAN should engage to better invest in the construction of related medical infrastructure to improve medical conditions. <br/>
 
 # Reference
 https://ornlcda.github.io/icons2018/presentations/comparison_reynolds.pdf <br/>
