@@ -64,7 +64,7 @@ Here is the Shiny Apps we lauch.
 <a href="https://likong.shinyapps.io/Covid-19/"> Covid-19 forecasting on ASEAN countries Shiny App</a> 
 <img src="Image/shiny_app.png" > <br/>
 
-#Conclusion
+# Conclusion
 The countries like Indonesia and Philippines may have very high CFR values in the future, ASEAN should engaged to better invest in the construction of related medical infrastructure to improve medical conditions. <br/>
 
 # Reference
