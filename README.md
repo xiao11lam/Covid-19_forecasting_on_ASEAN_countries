@@ -66,6 +66,8 @@ Here is the Shiny Apps we lauch.
 
 # Reference
 https://ornlcda.github.io/icons2018/presentations/comparison_reynolds.pdf
+https://www.datanovia.com/en/blog/ggplot-title-subtitle-and-caption/#center-the-title-position
+http://www.sthda.com/english/articles/32-r-graphics-essentials/128-plot-time-series-data-using-ggplot/
 
 
 
