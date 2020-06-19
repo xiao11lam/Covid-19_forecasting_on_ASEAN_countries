@@ -50,7 +50,7 @@ write.csv(confirmed_global_chosen,file="confirmed_global_chosen.csv")
 
 In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries.  <br/>
 
-```
+```R
    
 #deaths global
 deaths_global <- read.csv("time_series_covid19_deaths_global.csv",header=TRUE,stringsAsFactors = FALSE,check.names=F)
