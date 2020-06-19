@@ -15,6 +15,12 @@ Visualization: Nur Anis Nabila bt Mohd Salim WIE180031/17154983/1  <br/>
 Modeling and Shiny apps: LI KONG 17216250 / ZHANG, XIAO 17204147 <br/>
 
 # Data cleansing
+```
+#confirmed global
+library(dplyr)
+setwd("C:/Users/Roshni/Downloads/")
+confirmed_global <- read.csv("time_series_covid19_confirmed_global.csv", header=TRUE,stringsAsFactors = FALSE,check.names = F)
+```
 We get our two raw datasets from   : <a href="https://github.com/CSSEGISandData/COVID-19/tree/master/archived_data/archived_time_series"> CSSE at Johns Hopkins University</a> <br/>
 They showed the total number of global confirmed cases and death cases, which records from 1/22/20 to 6/6/20.<br/>
 
