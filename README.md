@@ -15,7 +15,7 @@ Visualization: Nur Anis Nabila bt Mohd Salim WIE180031/17154983/1  <br/>
 Modeling and Shiny apps: LI KONG 17216250 / ZHANG, XIAO 17204147 <br/>
 
 # Data cleansing
-```
+```R
 library(dplyr)
 setwd("C:/Users/Roshni/Downloads/")
 confirmed_global <- read.csv("time_series_covid19_confirmed_global.csv", header=TRUE,stringsAsFactors = FALSE,check.names = F)
@@ -36,7 +36,7 @@ They showed the total number of global confirmed cases and death cases, which re
 
 <img src="Image/time_series_covid19_deaths_global.png" > <br/>
 
-```
+```R
 #removing unwanted columns
 confirmed_global_chosen<- data.frame(confirmed_global[,2:141], check.names = FALSE)
 confirmed_global_chosen<-confirmed_global_chosen[grep("Malaysia|Brunei|Cambodia|Laos|Philippines|Singapore|Thailand|Vietnam|Indonesia|Burma", confirmed_global_chosen$`Country/Region`),]
@@ -66,7 +66,7 @@ View(deaths_global_chosen)
 write.csv(deaths_global_chosen,file="deaths_global_chosen.csv")
 ```
 In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result. <br/>
-```
+```R
 #Case Fatality Rate Table
 case_fatality_final <- deaths_global_chosen
 
@@ -85,7 +85,7 @@ write.csv(case_fatality,file="case_fatality.csv")
 
 # Data Visualization 
 In here we do the periodical visualization.
-```
+```R
 library(ggplot2)
 fatal<-read.csv("./case_fatality.csv")
 summary(fatal)
@@ -115,7 +115,7 @@ Here is the periodical outputs. <br/>
 For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. The forecasting results is based on the previous ending date the one-day after. 
 <img src="Image/Long_Short-Term_Memory.svg" > <br/>
 
-```
+```R
 #Importing libraries
 library(keras)
 library(tensorflow)
@@ -314,7 +314,7 @@ Here is the Shiny Apps we lauch.
 <img src="Image/shiny_app.png" > <br/>
 
 This is the partial codes. <br/>
-```  
+```R  
 library(shiny)
 library(leaflet)
 library(htmltools)
