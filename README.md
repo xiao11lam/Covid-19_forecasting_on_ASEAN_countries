@@ -16,7 +16,6 @@ Modeling and Shiny apps: LI KONG 17216250 / ZHANG, XIAO 17204147 <br/>
 
 # Data cleansing
 ```
-#confirmed global
 library(dplyr)
 setwd("C:/Users/Roshni/Downloads/")
 confirmed_global <- read.csv("time_series_covid19_confirmed_global.csv", header=TRUE,stringsAsFactors = FALSE,check.names = F)
@@ -37,8 +36,46 @@ They showed the total number of global confirmed cases and death cases, which re
 
 <img src="Image/time_series_covid19_deaths_global.png" > <br/>
 
-In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries. In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result: <br/>
+```
+#removing unwanted columns
+confirmed_global_chosen<- data.frame(confirmed_global[,2:141], check.names = FALSE)
+confirmed_global_chosen<-confirmed_global_chosen[grep("Malaysia|Brunei|Cambodia|Laos|Philippines|Singapore|Thailand|Vietnam|Indonesia|Burma", confirmed_global_chosen$`Country/Region`),]
+#renumbering the rows
+row.names(confirmed_global_chosen) <- 1:nrow(confirmed_global)
+#tabulation of data
+View(confirmed_global_chosen)  
+#write into a csv
+write.csv(confirmed_global_chosen,file="confirmed_global_chosen.csv")
+```
 
+In this part, we did our data cleansing, we filter the data we have no interest in, only focused on ASEAN member countries.  <br/>
+
+```
+   
+#deaths global
+deaths_global <- read.csv("time_series_covid19_deaths_global.csv",header=TRUE,stringsAsFactors = FALSE,check.names=F)
+
+#removing unwanted columns
+deaths_global_chosen<- data.frame(deaths_global[,2:141], check.names = FALSE)
+deaths_global_chosen<-deaths_global_chosen[grep("Malaysia|Brunei|Cambodia|Laos|Philippines|Singapore|Thailand|Vietnam|Indonesia|Burma", deaths_global_chosen$`Country/Region`),]
+#renumbering rows
+row.names(deaths_global_chosen) <- 1:nrow(deaths_global_chosen)
+#tabulation of data
+View(deaths_global_chosen)
+#write into a csv
+write.csv(deaths_global_chosen,file="deaths_global_chosen.csv")
+
+#Case Fatality Rate Table
+case_fatality_final <- deaths_global_chosen
+
+case_fatality_rates <- (deaths_global_chosen[1:10,4:140]/confirmed_global_chosen[1:10,4:140] )
+
+case_fatality <- dplyr::bind_cols(case_fatality_final[,1:3],case_fatality_rates,)
+case_fatality[is.na(case_fatality)] <- 0
+View(case_fatality)
+write.csv(case_fatality,file="case_fatality.csv")
+```
+In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result. <br/>
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/case_fatality.csv"> case_fatality.csv</a> <br>
 
 <img src="Image/case_fatality_1.png" aligh=left> 
