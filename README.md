@@ -64,7 +64,9 @@ row.names(deaths_global_chosen) <- 1:nrow(deaths_global_chosen)
 View(deaths_global_chosen)
 #write into a csv
 write.csv(deaths_global_chosen,file="deaths_global_chosen.csv")
-
+```
+In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result. <br/>
+```
 #Case Fatality Rate Table
 case_fatality_final <- deaths_global_chosen
 
@@ -75,7 +77,6 @@ case_fatality[is.na(case_fatality)] <- 0
 View(case_fatality)
 write.csv(case_fatality,file="case_fatality.csv")
 ```
-In this way, we can calculate the [Case Fatality Rate]("https://en.wikipedia.org/wiki/Case_fatality_rate") by confiremed cases dividing death cases. Here is our result. <br/>
 <a href="https://github.com/xiao11lam/Covid-19_forecasting_on_ASEAN_countries/blob/master/Dataset/case_fatality.csv"> case_fatality.csv</a> <br>
 
 <img src="Image/case_fatality_1.png" aligh=left> 
