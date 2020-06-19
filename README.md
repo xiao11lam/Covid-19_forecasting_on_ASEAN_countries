@@ -84,13 +84,33 @@ write.csv(case_fatality,file="case_fatality.csv")
 <img src="Image/case_fatality_2.png" aligh=left> <br/>
 
 # Data Visualization 
+In here we do the periodical visualization.
+```
+library(ggplot2)
+fatal<-read.csv("./case_fatality.csv")
+summary(fatal)
+str(fatal)
+p1<-ggplot(data = fatal, mapping = aes(x = X1.22.20, y=X1.31.20,size=6))  +ggtitle("Fatal rate between early and end of January") +geom_point(aes(color = Country.Region))
+p2<-ggplot(data = fatal, mapping = aes(x = X2.1.20, y=X2.29.20,size=6))  +ggtitle("Fatal rate between early and end of February") +geom_point(aes(color = Country.Region))
+p3<-ggplot(data = fatal, mapping = aes(x = X3.1.20, y=X3.31.20,size=6)) +ggtitle("Fatal rate between early and end of March") +geom_point(aes(color = Country.Region))
+p4<-ggplot(data = fatal, mapping = aes(x = X4.1.20, y=X4.30.20,size=6)) +ggtitle("Fatal rate between early and end of April") +geom_point(aes(color = Country.Region))
+p5<-ggplot(data = fatal, mapping = aes(x = X5.1.20, y=X5.31.20,size=6)) +ggtitle("Fatal rate between early and end of May") +geom_point(aes(color = Country.Region))
+p6<-ggplot(data = fatal, mapping = aes(x = X6.2.20, y=X6.6.20,size=6)) +ggtitle("Fatal rate between early and end of June") +geom_point(aes(color = Country.Region))
+#title style
+p1+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+p2+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+p3+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+p4+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+p5+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+p6+ theme(plot.title = element_text(color="red", size=14, face="bold.italic",hjust = 0.5))
+```
+Here is the periodical outputs. <br/>
 <img src="Image/January.PNG" > <br/>
 <img src="Image/February.PNG" > <br/>
 <img src="Image/March.PNG" > <br/>
 <img src="Image/April.PNG" > <br/>
 <img src="Image/May.PNG" > <br/>
 <img src="Image/June.PNG" > <br/>
-
 # Modeling
 For our exploration, we use  <a href="https://en.wikipedia.org/wiki/Long_short-term_memory"> LSTM</a> model to do forecastings. The forecasting results is based on the previous ending date the one-day after. 
 
